@@ -394,9 +394,6 @@
         <setEntry value="org.adempiere.server@default:true"/>
         <setEntry value="org.adempiere.ui.zk@default:true"/>
         <setEntry value="org.adempiere.ui@default:default"/>
-        <setEntry value="org.amerpsoft.com.idempiere.editors-com@default:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.themes-com@default:false"/>
         <setEntry value="org.apache.ecs@default:default"/>
         <setEntry value="org.compiere.db.oracle.provider@default:default"/>
         <setEntry value="org.compiere.db.postgresql.provider@default:default"/>
