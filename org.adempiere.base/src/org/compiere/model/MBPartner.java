@@ -715,12 +715,18 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 		//AZ Goodwill -> BF2041226 : only count completed/closed docs.
 		String sql = "SELECT "
 			//	SO Credit Used
-			+ "COALESCE((SELECT SUM(currencyBase(invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.C_Currency_ID,i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)) FROM C_Invoice_v i "
+			// IDEMPIERE-4083
+			// + "COALESCE((SELECT SUM(currencyBase(invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.C_Currency_ID,i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)) FROM C_Invoice_v i "
+			+ "COALESCE((SELECT SUM(currencyconvertinvoice(i.C_Invoice_ID, i.C_Currency_ID, invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.DateInvoiced)) FROM C_Invoice_v i "
 				+ "WHERE i.C_BPartner_ID=bp.C_BPartner_ID AND i.IsSOTrx='Y' AND i.IsPaid='N' AND i.DocStatus IN ('CO','CL')),0), "
 			//	Balance (incl. unallocated payments)
-			+ "COALESCE((SELECT SUM(currencyBase(invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.C_Currency_ID,i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)*i.MultiplierAP) FROM C_Invoice_v i "
+			// IDEMPIERE-4083
+			//	+ "COALESCE((SELECT SUM(currencyBase(invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)*i.MultiplierAP) FROM C_Invoice_v i "
+			+ "COALESCE((SELECT SUM(currencyconvertinvoice(i.C_Invoice_ID, i.C_Currency_ID, invoiceOpen(i.C_Invoice_ID,i.C_InvoicePaySchedule_ID),i.DateInvoiced)*i.MultiplierAP) FROM C_Invoice_v i "
 				+ "WHERE i.C_BPartner_ID=bp.C_BPartner_ID AND i.IsPaid='N' AND i.DocStatus IN ('CO','CL')),0) - "
-			+ "COALESCE((SELECT SUM(currencyBase(Paymentavailable(p.C_Payment_ID),p.C_Currency_ID,p.DateTrx,p.AD_Client_ID,p.AD_Org_ID)) FROM C_Payment_v p "
+			// IDEMPIERE-4083
+			// + "COALESCE((SELECT SUM(currencyBase(Paymentavailable(p.C_Payment_ID),p.C_Currency_ID,p.DateTrx,p.AD_Client_ID,p.AD_Org_ID)) FROM C_Payment_v p "
+			+ "COALESCE((SELECT SUM(currencyconvertpayment(p.C_Payment_ID, p.C_Currency_ID, Paymentavailable(p.C_Payment_ID),p.DateTrx)) FROM C_Payment_v p "
 				+ "WHERE p.C_BPartner_ID=bp.C_BPartner_ID AND p.IsAllocated='N'"
 				+ " AND p.C_Charge_ID IS NULL AND p.DocStatus IN ('CO','CL')),0) "
 			+ "FROM C_BPartner bp "
@@ -764,7 +770,9 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 		BigDecimal ActualLifeTimeValue = null;
 		//AZ Goodwill -> BF2041226 : only count completed/closed docs.
 		String sql = "SELECT "
-			+ "COALESCE ((SELECT SUM(currencyBase(i.GrandTotal,i.C_Currency_ID,i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)) FROM C_Invoice_v i "
+		// IDEMPIERE-4083		
+		//	+ "COALESCE ((SELECT SUM(currencyBase(i.GrandTotal,i.C_Currency_ID,i.DateInvoiced, i.AD_Client_ID,i.AD_Org_ID)) FROM C_Invoice_v i "
+			+ "COALESCE ((SELECT SUM(currencyconvertinvoice(i.C_Invoice_ID, i.C_Currency_ID, i.GrandTotal,i.DateInvoiced)) FROM C_Invoice_v i "
 				+ "WHERE i.C_BPartner_ID=bp.C_BPartner_ID AND i.IsSOTrx='Y' AND i.DocStatus IN ('CO','CL')),0) " 
 			+ "FROM C_BPartner bp "
 			+ "WHERE C_BPartner_ID=?";

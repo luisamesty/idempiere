@@ -1873,10 +1873,18 @@ public class GridTab implements DataStatusListener, Evaluatee, Serializable
 		else if (m_vo.TableName.startsWith("C_Order") || m_vo.TableName.startsWith("C_Invoice"))
 		{
 			int Record_ID;
+			StringBuilder sql =null;
 			boolean isOrder = m_vo.TableName.startsWith("C_Order");
 			//
-			StringBuilder sql = new StringBuilder("SELECT COUNT(*) AS Lines,c.ISO_Code,o.TotalLines,o.GrandTotal,"
-				+ "currencyBase(o.GrandTotal,o.C_Currency_ID,o.DateAcct, o.AD_Client_ID,o.AD_Org_ID) AS ConvAmt ");
+			if (isOrder)
+			{
+				sql = new StringBuilder("SELECT COUNT(*) AS Lines,c.ISO_Code,o.TotalLines,o.GrandTotal,"
+						+ "currencyBase(o.GrandTotal,o.C_Currency_ID,o.DateAcct, o.AD_Client_ID,o.AD_Org_ID) AS ConvAmt ");
+			} else {
+				sql = new StringBuilder("SELECT COUNT(*) AS Lines,c.ISO_Code,o.TotalLines,o.GrandTotal,"
+						+ "currencyBase(o.C_Invoice_ID, o.C_Currency_ID,o.GrandTotal, o.DateAcct) AS ConvAmt ");
+				
+			}
 			if (isOrder)
 			{
 				Record_ID = Env.getContextAsInt(m_vo.ctx, m_vo.WindowNo, "C_Order_ID");
