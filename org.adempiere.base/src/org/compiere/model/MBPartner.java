@@ -731,6 +731,7 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 				+ " AND p.C_Charge_ID IS NULL AND p.DocStatus IN ('CO','CL')),0) "
 			+ "FROM C_BPartner bp "
 			+ "WHERE C_BPartner_ID=?";		
+			// log.warning("sql="+sql);		
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		try
@@ -760,6 +761,7 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 		if (TotalOpenBalance != null)
 			super.setTotalOpenBalance(TotalOpenBalance);
 		setSOCreditStatus();
+		//log.warning("TotalOpenBalance="+TotalOpenBalance);		
 	}	//	setTotalOpenBalance
 
 	/**
@@ -776,6 +778,7 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 				+ "WHERE i.C_BPartner_ID=bp.C_BPartner_ID AND i.IsSOTrx='Y' AND i.DocStatus IN ('CO','CL')),0) " 
 			+ "FROM C_BPartner bp "
 			+ "WHERE C_BPartner_ID=?";
+		//log.warning("sql="+sql);
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		try
@@ -798,6 +801,7 @@ public class MBPartner extends X_C_BPartner implements ImmutablePOSupport
 		}
 		if (ActualLifeTimeValue != null)
 			super.setActualLifeTimeValue (ActualLifeTimeValue);
+		//log.warning("ActualLifeTimeValue="+ActualLifeTimeValue);
 	}	//	setActualLifeTimeValue
 	
 	/**
