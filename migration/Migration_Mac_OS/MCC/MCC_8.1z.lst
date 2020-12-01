@@ -3,10 +3,9 @@
  202011092042_IDEMPIERE-1117.sql
 (1 row)
 
-INSERT 0 1
-                register_migration_script                
----------------------------------------------------------
- 202011092042_IDEMPIERE-1117.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202011092042_IDEMPIERE-1117.sql was already applied
 (1 row)
 
             filename             
@@ -14,104 +13,11 @@ INSERT 0 1
  202011101712_IDEMPIERE-4083.sql
 (1 row)
 
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
 CREATE VIEW
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
 CREATE FUNCTION
-                register_migration_script                
----------------------------------------------------------
- 202011101712_IDEMPIERE-4083.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202011101712_IDEMPIERE-4083.sql was already applied
 (1 row)
 
             filename             
@@ -119,9 +25,9 @@ CREATE FUNCTION
  202011120940_IDEMPIERE-3862.sql
 (1 row)
 
-                register_migration_script                
----------------------------------------------------------
- 202011120940_IDEMPIERE-3862.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202011120940_IDEMPIERE-3862.sql was already applied
 (1 row)
 
             filename             
@@ -134,9 +40,208 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011121113_IDEMPIERE-4542.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011121122_IDEMPIERE-4569.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
                 register_migration_script                
 ---------------------------------------------------------
- 202011121113_IDEMPIERE-4542.sql successfully registered
+ 202011121122_IDEMPIERE-4569.sql successfully registered
+(1 row)
+
+            filename             
+---------------------------------
+ 202011191659_IDEMPIERE-4554.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 26
+UPDATE 26
+UPDATE 25
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 202011191659_IDEMPIERE-4554.sql successfully registered
+(1 row)
+
+            filename             
+---------------------------------
+ 202011202059_IDEMPIERE-4553.sql
+(1 row)
+
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 202011202059_IDEMPIERE-4553.sql successfully registered
+(1 row)
+
+            filename             
+---------------------------------
+ 202011221417_IDEMPIERE-4572.sql
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+                register_migration_script                
+---------------------------------------------------------
+ 202011221417_IDEMPIERE-4572.sql successfully registered
+(1 row)
+
+            filename             
+---------------------------------
+ 202011241451_IDEMPIERE-4566.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 202011241451_IDEMPIERE-4566.sql successfully registered
+(1 row)
+
+            filename             
+---------------------------------
+ 202011260936_IDEMPIERE-4567.sql
+(1 row)
+
+UPDATE 2
+                register_migration_script                
+---------------------------------------------------------
+ 202011260936_IDEMPIERE-4567.sql successfully registered
 (1 row)
 
             filename             
@@ -168,7 +273,7 @@ UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
-UPDATE 0
+UPDATE 16
 UPDATE 0
 UPDATE 1
 UPDATE 4
@@ -184,17 +289,17 @@ UPDATE 0
 UPDATE 0
 UPDATE 360
 UPDATE 1440
-UPDATE 318
-UPDATE 1272
-UPDATE 36
-UPDATE 144
+UPDATE 319
+UPDATE 1276
+UPDATE 34
+UPDATE 136
 UPDATE 12
 UPDATE 48
 UPDATE 3
 UPDATE 12
 UPDATE 1
 UPDATE 4
-UPDATE 30
+UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 67
