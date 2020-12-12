@@ -36,6 +36,7 @@ public class MUserDefWin extends X_AD_UserDef_Win implements ImmutablePOSupport
 	 */
 	private static final long serialVersionUID = -7542708120229671875L;
 	private volatile static List<MUserDefWin> m_fullList = null;
+	private static final Object m_fullListLock = new Object();
 
 	/**
 	 * 	Standard constructor.
@@ -103,8 +104,17 @@ public class MUserDefWin extends X_AD_UserDef_Win implements ImmutablePOSupport
 	 */
 	private static MUserDefWin[] getAll (Properties ctx, int window_ID )
 	{
-		if (m_fullList == null) {
-			m_fullList = new Query(ctx, MUserDefWin.Table_Name, "IsActive='Y'", null).list();
+		synchronized (m_fullListLock) {
+			if (m_fullList == null) {
+				try {
+					PO.setCrossTenantSafe();
+					m_fullList = new Query(ctx, MUserDefWin.Table_Name, null, null)
+							.setOnlyActiveRecords(true)
+							.list();
+				} finally {
+					PO.clearCrossTenantSafe();
+				}
+			}
 		}
 		
 		if (m_fullList.size() == 0) {

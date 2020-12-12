@@ -822,8 +822,13 @@ public class MUser extends X_AD_User implements ImmutablePOSupport
 			pstmt.setInt (3, getAD_User_ID());
 			pstmt.setInt (4, AD_Org_ID);
 			rs = pstmt.executeQuery ();
-			while (rs.next ())
-				list.add (new MRole(Env.getCtx(), rs, get_TrxName()));
+			try {
+				PO.setCrossTenantSafe();
+				while (rs.next ())
+					list.add (new MRole(Env.getCtx(), rs, get_TrxName()));
+			} finally {
+				PO.clearCrossTenantSafe();
+			}
 		}
 		catch (Exception e)
 		{
