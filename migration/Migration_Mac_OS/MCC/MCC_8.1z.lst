@@ -1,0 +1,537 @@
+            filename             
+---------------------------------
+ 201807250000_IDEMPIERE-4579.sql
+(1 row)
+
+CREATE FUNCTION
+              register_migration_script              
+-----------------------------------------------------
+ 201807250000_IDEMPIERE-4579.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011092042_IDEMPIERE-1117.sql
+(1 row)
+
+              register_migration_script              
+-----------------------------------------------------
+ 202011092042_IDEMPIERE-1117.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011101712_IDEMPIERE-4083.sql
+(1 row)
+
+CREATE VIEW
+CREATE FUNCTION
+              register_migration_script              
+-----------------------------------------------------
+ 202011101712_IDEMPIERE-4083.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011120940_IDEMPIERE-3862.sql
+(1 row)
+
+              register_migration_script              
+-----------------------------------------------------
+ 202011120940_IDEMPIERE-3862.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011121113_IDEMPIERE-4542.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011121113_IDEMPIERE-4542.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011121122_IDEMPIERE-4569.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011121122_IDEMPIERE-4569.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011191659_IDEMPIERE-4554.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 26
+UPDATE 26
+UPDATE 26
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011191659_IDEMPIERE-4554.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011202059_IDEMPIERE-4553.sql
+(1 row)
+
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011202059_IDEMPIERE-4553.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011221417_IDEMPIERE-4572.sql
+(1 row)
+
+              register_migration_script              
+-----------------------------------------------------
+ 202011221417_IDEMPIERE-4572.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011241451_IDEMPIERE-4566.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202011241451_IDEMPIERE-4566.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202011260936_IDEMPIERE-4567.sql
+(1 row)
+
+UPDATE 0
+              register_migration_script              
+-----------------------------------------------------
+ 202011260936_IDEMPIERE-4567.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012081514_IDEMPIERE-4297.sql
+(1 row)
+
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012081514_IDEMPIERE-4297.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012082134_IDEMPIERE-4358.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012082134_IDEMPIERE-4358.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012102125_IDEMPIERE-4595.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012102125_IDEMPIERE-4595.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012140240_IDEMPIERE-4598.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012140240_IDEMPIERE-4598.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012151609_IDEMPIERE-4601.sql
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012151609_IDEMPIERE-4601.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012180100_IDEMPIERE-4599.sql
+(1 row)
+
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012180100_IDEMPIERE-4599.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012181642_IDEMPIERE-1575.sql
+(1 row)
+
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+UPDATE 1
+ altercolumn 
+-------------
+ 
+(1 row)
+
+INSERT 0 0
+              register_migration_script              
+-----------------------------------------------------
+ 202012181642_IDEMPIERE-1575.sql was already applied
+(1 row)
+
+             filename             
+----------------------------------
+ 202012200821_FillADTreeBarUU.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+              register_migration_script               
+------------------------------------------------------
+ 202012200821_FillADTreeBarUU.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 202012200836_DisableLogInHK.sql
+(1 row)
+
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012200836_DisableLogInHK.sql was already applied
+(1 row)
+
+         filename         
+--------------------------
+ 202012200841_Version.sql
+(1 row)
+
+UPDATE 1
+          register_migration_script           
+----------------------------------------------
+ 202012200841_Version.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
+ 01_add_missing_translations.sql
+(1 row)
+
+CREATE FUNCTION
+ add_missing_translations 
+--------------------------
+ 
+(1 row)
+
+           filename            
+-------------------------------
+ 02_SynchronizeTerminology.sql
+(1 row)
+
+INSERT 0 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 110
+UPDATE 370
+UPDATE 110
+UPDATE 370
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 1
+UPDATE 4
+UPDATE 0
+UPDATE 0
+UPDATE 1
+UPDATE 4
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 360
+UPDATE 1440
+UPDATE 319
+UPDATE 1276
+UPDATE 35
+UPDATE 140
+UPDATE 12
+UPDATE 48
+UPDATE 3
+UPDATE 12
+UPDATE 1
+UPDATE 4
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 67
+UPDATE 277
+        filename         
+-------------------------
+ 03_update_sequences.sql
+(1 row)
+
+CREATE FUNCTION
+ update_sequences 
+------------------
+ 
+(1 row)
+
+         filename          
+---------------------------
+ 04_role_access_update.sql
+(1 row)
+
+CREATE FUNCTION
+ role_access_update 
+--------------------
+ 
+(1 row)
+
+COMMIT
