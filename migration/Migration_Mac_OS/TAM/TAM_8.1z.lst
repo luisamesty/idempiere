@@ -7,7 +7,8 @@ CREATE FUNCTION
               register_migration_script              
 -----------------------------------------------------
  201807250000_IDEMPIERE-4579.sql was already applied
-(1 row)
+ 201807250000_IDEMPIERE-4579.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -17,7 +18,8 @@ CREATE FUNCTION
               register_migration_script              
 -----------------------------------------------------
  202011092042_IDEMPIERE-1117.sql was already applied
-(1 row)
+ 202011092042_IDEMPIERE-1117.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -29,7 +31,8 @@ CREATE FUNCTION
               register_migration_script              
 -----------------------------------------------------
  202011101712_IDEMPIERE-4083.sql was already applied
-(1 row)
+ 202011101712_IDEMPIERE-4083.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -39,7 +42,8 @@ CREATE FUNCTION
               register_migration_script              
 -----------------------------------------------------
  202011120940_IDEMPIERE-3862.sql was already applied
-(1 row)
+ 202011120940_IDEMPIERE-3862.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -54,7 +58,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011121113_IDEMPIERE-4542.sql was already applied
-(1 row)
+ 202011121113_IDEMPIERE-4542.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -66,7 +71,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011121122_IDEMPIERE-4569.sql was already applied
-(1 row)
+ 202011121122_IDEMPIERE-4569.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -112,7 +118,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011191659_IDEMPIERE-4554.sql was already applied
-(1 row)
+ 202011191659_IDEMPIERE-4554.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -123,7 +130,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011202059_IDEMPIERE-4553.sql was already applied
-(1 row)
+ 202011202059_IDEMPIERE-4553.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -133,7 +141,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011221417_IDEMPIERE-4572.sql was already applied
-(1 row)
+ 202011221417_IDEMPIERE-4572.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -221,7 +230,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202011241451_IDEMPIERE-4566.sql was already applied
-(1 row)
+ 202011241451_IDEMPIERE-4566.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -232,7 +242,8 @@ UPDATE 0
               register_migration_script              
 -----------------------------------------------------
  202011260936_IDEMPIERE-4567.sql was already applied
-(1 row)
+ 202011260936_IDEMPIERE-4567.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -243,7 +254,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202012081514_IDEMPIERE-4297.sql was already applied
-(1 row)
+ 202012081514_IDEMPIERE-4297.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -258,7 +270,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202012082134_IDEMPIERE-4358.sql was already applied
-(1 row)
+ 202012082134_IDEMPIERE-4358.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -270,7 +283,8 @@ UPDATE 1
               register_migration_script              
 -----------------------------------------------------
  202012102125_IDEMPIERE-4595.sql was already applied
-(1 row)
+ 202012102125_IDEMPIERE-4595.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -325,7 +339,8 @@ UPDATE 1
                 register_migration_script                
 ---------------------------------------------------------
  202012140240_IDEMPIERE-4598.sql successfully registered
-(1 row)
+ 202012140240_IDEMPIERE-4598.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -376,7 +391,8 @@ UPDATE 1
                 register_migration_script                
 ---------------------------------------------------------
  202012151609_IDEMPIERE-4601.sql successfully registered
-(1 row)
+ 202012151609_IDEMPIERE-4601.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -387,7 +403,8 @@ UPDATE 1
                 register_migration_script                
 ---------------------------------------------------------
  202012180100_IDEMPIERE-4599.sql successfully registered
-(1 row)
+ 202012180100_IDEMPIERE-4599.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -395,12 +412,6 @@ UPDATE 1
 (1 row)
 
 UPDATE 1
- altercolumn 
--------------
- 
-(1 row)
-
-INSERT 0 0
 UPDATE 1
  altercolumn 
 -------------
@@ -418,7 +429,8 @@ INSERT 0 0
                 register_migration_script                
 ---------------------------------------------------------
  202012181642_IDEMPIERE-1575.sql successfully registered
-(1 row)
+ 202012181642_IDEMPIERE-1575.sql was already applied
+(2 rows)
 
              filename             
 ----------------------------------
@@ -430,7 +442,8 @@ UPDATE 1
                 register_migration_script                 
 ----------------------------------------------------------
  202012200821_FillADTreeBarUU.sql successfully registered
-(1 row)
+ 202012200821_FillADTreeBarUU.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -441,7 +454,8 @@ UPDATE 1
                 register_migration_script                
 ---------------------------------------------------------
  202012200836_DisableLogInHK.sql successfully registered
-(1 row)
+ 202012200836_DisableLogInHK.sql was already applied
+(2 rows)
 
          filename         
 --------------------------
@@ -452,7 +466,8 @@ UPDATE 1
             register_migration_script             
 --------------------------------------------------
  202012200841_Version.sql successfully registered
-(1 row)
+ 202012200841_Version.sql was already applied
+(2 rows)
 
             filename             
 ---------------------------------
@@ -474,10 +489,10 @@ INSERT 0 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
-UPDATE 110
-UPDATE 370
-UPDATE 110
-UPDATE 370
+UPDATE 115
+UPDATE 155
+UPDATE 115
+UPDATE 155
 UPDATE 0
 UPDATE 0
 UPDATE 0
@@ -486,34 +501,34 @@ UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 1
-UPDATE 4
+UPDATE 2
 UPDATE 0
 UPDATE 0
 UPDATE 1
-UPDATE 4
+UPDATE 2
 UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
-UPDATE 360
-UPDATE 1440
-UPDATE 319
-UPDATE 1276
-UPDATE 35
-UPDATE 140
-UPDATE 12
-UPDATE 48
+UPDATE 389
+UPDATE 778
+UPDATE 359
+UPDATE 718
+UPDATE 50
+UPDATE 100
+UPDATE 21
+UPDATE 42
 UPDATE 3
-UPDATE 12
-UPDATE 1
+UPDATE 6
 UPDATE 4
+UPDATE 8
 UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 67
-UPDATE 277
+UPDATE 140
         filename         
 -------------------------
  03_update_sequences.sql
