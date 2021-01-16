@@ -28,3 +28,6 @@ External Plug-in Libraries
 /.sonarlint/
 **/org.sonarlint.eclipse.core.prefs
 /runtime-*.app/
+
+/RUN_SyncDBDev.sh
+/.gitignore
