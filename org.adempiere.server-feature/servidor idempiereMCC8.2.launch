@@ -379,6 +379,7 @@
         <setEntry value="zweb@default:default"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
+        <setEntry value="jpiere.plugin.groupware@default:true"/>
         <setEntry value="org.adempiere.base.callout@default:default"/>
         <setEntry value="org.adempiere.base.process@default:default"/>
         <setEntry value="org.adempiere.base@default:default"/>
