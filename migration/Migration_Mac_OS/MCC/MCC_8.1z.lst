@@ -322,9 +322,9 @@ INSERT 0 0
 
 INSERT 0 0
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012140240_IDEMPIERE-4598.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202012140240_IDEMPIERE-4598.sql was already applied
 (1 row)
 
             filename             
@@ -332,9 +332,7 @@ UPDATE 1
  202012151609_IDEMPIERE-4601.sql
 (1 row)
 
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
+INSERT 0 0
 UPDATE 1
 UPDATE 1
 UPDATE 1
@@ -373,9 +371,9 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012151609_IDEMPIERE-4601.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202012151609_IDEMPIERE-4601.sql was already applied
 (1 row)
 
             filename             
@@ -384,9 +382,9 @@ UPDATE 1
 (1 row)
 
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012180100_IDEMPIERE-4599.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202012180100_IDEMPIERE-4599.sql was already applied
 (1 row)
 
             filename             
@@ -415,9 +413,9 @@ UPDATE 1
 (1 row)
 
 INSERT 0 0
-                register_migration_script                
----------------------------------------------------------
- 202012181642_IDEMPIERE-1575.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202012181642_IDEMPIERE-1575.sql was already applied
 (1 row)
 
              filename             
@@ -427,9 +425,9 @@ INSERT 0 0
 
 UPDATE 1
 UPDATE 1
-                register_migration_script                 
-----------------------------------------------------------
- 202012200821_FillADTreeBarUU.sql successfully registered
+              register_migration_script               
+------------------------------------------------------
+ 202012200821_FillADTreeBarUU.sql was already applied
 (1 row)
 
             filename             
@@ -438,9 +436,9 @@ UPDATE 1
 (1 row)
 
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012200836_DisableLogInHK.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202012200836_DisableLogInHK.sql was already applied
 (1 row)
 
          filename         
@@ -449,9 +447,9 @@ UPDATE 1
 (1 row)
 
 UPDATE 1
-            register_migration_script             
---------------------------------------------------
- 202012200841_Version.sql successfully registered
+          register_migration_script           
+----------------------------------------------
+ 202012200841_Version.sql was already applied
 (1 row)
 
             filename             

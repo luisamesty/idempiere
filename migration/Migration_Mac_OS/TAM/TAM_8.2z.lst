@@ -1,0 +1,356 @@
+            filename             
+---------------------------------
+ 202001180340_IDEMPIERE-4651.sql
+(1 row)
+
+              register_migration_script              
+-----------------------------------------------------
+ 202001180340_IDEMPIERE-4651.sql was already applied
+ 202001180340_IDEMPIERE-4651.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 202012261710_IDEMPIERE-4610.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012261710_IDEMPIERE-4610.sql was already applied
+ 202012261710_IDEMPIERE-4610.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 202012310900_IDEMPIERE-4568.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012310900_IDEMPIERE-4568.sql was already applied
+ 202012310900_IDEMPIERE-4568.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 202012311000_IDEMPIERE-4616.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012311000_IDEMPIERE-4616.sql was already applied
+ 202012311000_IDEMPIERE-4616.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 01_add_missing_translations.sql
+(1 row)
+
+CREATE FUNCTION
+ add_missing_translations 
+--------------------------
+ 
+(1 row)
+
+           filename            
+-------------------------------
+ 02_SynchronizeTerminology.sql
+(1 row)
+
+INSERT 0 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 115
+UPDATE 155
+UPDATE 115
+UPDATE 155
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 1
+UPDATE 2
+UPDATE 0
+UPDATE 0
+UPDATE 1
+UPDATE 2
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 388
+UPDATE 776
+UPDATE 358
+UPDATE 716
+UPDATE 51
+UPDATE 102
+UPDATE 21
+UPDATE 42
+UPDATE 3
+UPDATE 6
+UPDATE 4
+UPDATE 8
+UPDATE 0
+UPDATE 0
+UPDATE 0
+UPDATE 67
+UPDATE 140
+        filename         
+-------------------------
+ 03_update_sequences.sql
+(1 row)
+
+CREATE FUNCTION
+ update_sequences 
+------------------
+ 
+(1 row)
+
+         filename          
+---------------------------
+ 04_role_access_update.sql
+(1 row)
+
+CREATE FUNCTION
+ role_access_update 
+--------------------
+ 
+(1 row)
+
+COMMIT

@@ -1,5 +1,17 @@
             filename             
 ---------------------------------
+ 202012261710_IDEMPIERE-4610.sql
+(1 row)
+
+UPDATE 1
+UPDATE 1
+              register_migration_script              
+-----------------------------------------------------
+ 202012261710_IDEMPIERE-4610.sql was already applied
+(1 row)
+
+            filename             
+---------------------------------
  01_add_missing_translations.sql
 (1 row)
 
