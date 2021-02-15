@@ -12,16 +12,7 @@
     <booleanAttribute key="clearwslog" value="false"/>
     <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/pde-junit"/>
     <booleanAttribute key="default" value="false"/>
-    <setAttribute key="deselected_workspace_bundles">
-        <setEntry value="org.adempiere.replication"/>
-        <setEntry value="org.adempiere.replication.server"/>
-        <setEntry value="org.adempiere.server"/>
-        <setEntry value="org.adempiere.ui.zk"/>
-        <setEntry value="org.idempiere.felix.webconsole"/>
-        <setEntry value="org.idempiere.javadoc"/>
-        <setEntry value="org.idempiere.webservices"/>
-        <setEntry value="org.idempiere.zk.extra"/>
-    </setAttribute>
+    <setAttribute key="deselected_workspace_bundles"/>
     <booleanAttribute key="includeOptional" value="true"/>
     <stringAttribute key="location" value="${workspace_loc}/../junit-workspace"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
