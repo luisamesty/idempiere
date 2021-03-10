@@ -61,6 +61,53 @@ INSERT 0 1
 
             filename             
 ---------------------------------
+ 202101260800_IDEMPIERE-4654.sql
+(1 row)
+
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 202101260800_IDEMPIERE-4654.sql successfully registered
+ 202101260800_IDEMPIERE-4654.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 202102180540_IDEMPIERE-4705.sql
+(1 row)
+
+INSERT 0 1
+                register_migration_script                
+---------------------------------------------------------
+ 202102180540_IDEMPIERE-4705.sql successfully registered
+ 202102180540_IDEMPIERE-4705.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
+ 202102191922_IDEMPIERE-4713.sql
+(1 row)
+
+INSERT 0 1
+INSERT 0 1
+ALTER TABLE
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+INSERT 0 1
+ALTER TABLE
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 202102191922_IDEMPIERE-4713.sql successfully registered
+ 202102191922_IDEMPIERE-4713.sql was already applied
+(2 rows)
+
+            filename             
+---------------------------------
  01_add_missing_translations.sql
 (1 row)
 
@@ -102,12 +149,12 @@ UPDATE 0
 UPDATE 180
 UPDATE 0
 UPDATE 0
-UPDATE 388
-UPDATE 776
-UPDATE 358
-UPDATE 716
-UPDATE 51
-UPDATE 102
+UPDATE 389
+UPDATE 778
+UPDATE 359
+UPDATE 718
+UPDATE 50
+UPDATE 100
 UPDATE 21
 UPDATE 42
 UPDATE 3

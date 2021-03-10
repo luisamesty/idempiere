@@ -1,0 +1,7 @@
+*** 2021-03-03 19:40:34.821 idempiere Log (CLogFile) ***
+19:40:34.820 Adempiere.startup: iDempiere(r) Release 8.2_2020-12-20 -Smart Suite ERP, CRM and SCM- (c) 1999-2021 iDempiere(r); Implementation: iDempiere - Supported by iDempiere community [1]
+19:40:34.821 Ini.loadProperties: /Users/luisamesty/sources/idempiere/org.idempiere.test/idempiere.properties #26 [1]
+19:40:34.861===========> SecureEngine.<init>: Could not initialize: org.compiere.util.Secure - java.lang.reflect.InvocationTargetException
+Check start script parameter ADEMPIERE_SECURE [1]
+
+*** 2021-03-03 19:40:34.868 idempiere Log (CLogFile) ***
