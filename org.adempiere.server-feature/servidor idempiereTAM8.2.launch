@@ -397,7 +397,7 @@
         <setEntry value="org.adempiere.ui@default:default"/>
         <setEntry value="org.amerpsoft.com.idempiere.editors-com@default:true"/>
         <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.themes-com@default:false"/>
+        <setEntry value="org.amerpsoft.com.idempiere.zk_themes@default:false"/>
         <setEntry value="org.amerpsoft.idempiere.amabase@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.amwebfui@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.bpartners@default:true"/>

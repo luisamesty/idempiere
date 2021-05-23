@@ -379,8 +379,6 @@
         <setEntry value="zweb@default:default"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
-        <setEntry value="com.ingeint.human.talent@default:true"/>
-        <setEntry value="com.ingeint.idempierePayroll@default:true"/>
         <setEntry value="org.adempiere.base.callout@default:default"/>
         <setEntry value="org.adempiere.base.process@default:default"/>
         <setEntry value="org.adempiere.base@default:default"/>
@@ -397,7 +395,7 @@
         <setEntry value="org.adempiere.server@default:true"/>
         <setEntry value="org.adempiere.ui.zk@default:true"/>
         <setEntry value="org.adempiere.ui@default:default"/>
-        <setEntry value="org.amerpsoft.idempiere.personnelpayroll@default:true"/>
+        <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
         <setEntry value="org.apache.ecs@default:default"/>
         <setEntry value="org.compiere.db.oracle.provider@default:default"/>
         <setEntry value="org.compiere.db.postgresql.provider@default:default"/>
