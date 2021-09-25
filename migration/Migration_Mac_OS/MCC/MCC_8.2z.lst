@@ -230,8 +230,8 @@ INSERT 0 1
  202011101100_IDEMPIERE-3340_MigrateData.sql
 (1 row)
 
-INSERT 0 16
-INSERT 0 187
+INSERT 0 17
+INSERT 0 193
                       register_migration_script                      
 ---------------------------------------------------------------------
  202011101100_IDEMPIERE-3340_MigrateData.sql successfully registered
@@ -675,8 +675,8 @@ UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 0
-UPDATE 358
-UPDATE 1432
+UPDATE 359
+UPDATE 1436
 UPDATE 319
 UPDATE 1276
 UPDATE 35
