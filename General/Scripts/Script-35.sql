@@ -1,0 +1,1 @@
+select * from AMN_Schema

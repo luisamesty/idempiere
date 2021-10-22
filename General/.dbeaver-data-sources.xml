@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<folder name="PG 192.168.1.22 TOSHIBA"/>
+	<folder name="PG 192.168.1.23 MacBookPro 23"/>
+	<folder name="PG  81.169.177.171 STRATO"/>
+	<folder name="PG 192.168.1.25 Virtual UBUNTU 18.04"/>
+	<folder name="MYSQL 192.168.1.25 Virtual UBUNTU 18.04"/>
+	<data-source id="postgres-jdbc-1687757714f-6c55352e36e2f0e9" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL  9.6 - MacBookPro 23 Local 5432" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.23 MacBookPro 23">
+		<connection host="localhost" port="5432" server="" database="postgres" url="jdbc:postgresql://localhost:5432/postgres" user="adempiere" password="EgADLVFKQQQAcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="currentSchema" value="adempiere"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="dbeaver-sample-database-sqlite-1" provider="generic" driver="sqlite_jdbc" name="DBeaver Sample Database (SQLite)" save-password="true" show-system-objects="true" read-only="false">
+		<connection server="" database="/Users/luisamesty/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db" url="jdbc:sqlite:/Users/luisamesty/.dbeaver4/.metadata/sample-database-sqlite-1/Chinook.db" type="dev"/>
+	</data-source>
+	<data-source id="postgres-jdbc-168776173ef-666baeaa18e976c8" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL  9.6 - 192.168.1.22 TOSHIBA UBUNTU" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.22 TOSHIBA">
+		<connection host="192.168.1.22" port="5432" server="" database="postgres" url="jdbc:postgresql://192.168.1.22:5432/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-16877691889-3653828387fa1e76" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL 10.5 - 192.168.1.22 TOSHIBA UBUNTU" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.22 TOSHIBA">
+		<connection host="192.168.1.22" port="5433" server="" database="postgres" url="jdbc:postgresql://192.168.1.22:5433/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-168776c92ef-65e13a3c707cf753" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL 10.5 - MacBookPro 23 Local 5433" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.23 MacBookPro 23">
+		<connection host="localhost" port="5433" server="" database="postgres" url="jdbc:postgresql://localhost:5433/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="currentSchema" value="adempiere"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-168776fb238-7dd72ae9544d232c" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL   9.5 - STRATO 5432" save-password="true" show-system-objects="true" read-only="false" folder="PG  81.169.177.171 STRATO">
+		<connection host="81.169.177.171" port="5432" server="" database="postgres" url="jdbc:postgresql://81.169.177.171:5432/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="currentSchema" value="adempiere"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1687771740b-1fbb30f2ccc51cd2" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL 10.5 - STRATO 5433" save-password="true" show-system-objects="true" read-only="false" folder="PG  81.169.177.171 STRATO">
+		<connection host="81.169.177.171" port="5433" server="" database="postgres" url="jdbc:postgresql://81.169.177.171:5433/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<property name="connectTimeout" value="20"/>
+			<property name="loginTimeout" value="20"/>
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1698ab5de3d-3d38ec3dfb213ef0" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - postgres" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.25 Virtual UBUNTU 18.04">
+		<connection host="192.168.1.25" port="5432" server="" database="postgres" url="jdbc:postgresql://192.168.1.25:5432/postgres" user="postgres" password="IAsAKWERFEdQcuc=" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="postgres-jdbc-1698b24e9b9-636f6bc840441583" provider="postgresql" driver="postgres-jdbc" name="PostgreSQL - idempiereMCC5.1pro" save-password="true" show-system-objects="true" read-only="false" folder="PG 192.168.1.25 Virtual UBUNTU 18.04">
+		<connection host="localhost" port="5432" server="" database="idempiereMCC5.1pro" url="jdbc:postgresql://localhost:5432/idempiereMCC5.1pro" user="adempiere" password="EgADLVFKQQQAcuc=" type="dev">
+			<provider-property name="@dbeaver-show-non-default-db@" value="true"/>
+			<provider-property name="@dbeaver-show-template-db@" value="false"/>
+		</connection>
+	</data-source>
+	<data-source id="mysql8-1698b3368bc-3a86a4b91354d277" provider="mysql" driver="mysql8" name="MySQL 8.x - 192.168.1.25" save-password="true" show-system-objects="true" read-only="false" folder="MYSQL 192.168.1.25 Virtual UBUNTU 18.04">
+		<connection host="192.168.1.25" port="3306" server="" database="" url="jdbc:mysql://192.168.1.25:3306/" user="root" password="IAsAKWERFEdQcuc=" type="dev"/>
+	</data-source>
+	<data-source id="mysql8-16a040b7567-58a1f5b5b4053e60" provider="mysql" driver="mysql8" name="MySQL 8.x - localhost" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="" url="jdbc:mysql://localhost:3306/" user="root" password="QlZVdBQVJPc=" type="dev">
+			<provider-property name="@dbeaver-serverTimezone@" value="Europe/Madrid"/>
+		</connection>
+	</data-source>
+	<filters/>
+</data-sources>
