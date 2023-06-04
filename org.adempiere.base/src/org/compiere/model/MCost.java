@@ -1500,8 +1500,12 @@ public class MCost extends X_M_Cost
 		{
 			if (getCurrentQty().add(qty).signum() < 0)
 			{
-				throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
-						+ ", CostElement="+costElement.getName()+", Schema="+getC_AcctSchema().getName());
+//				throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
+//						+ ", CostElement="+costElement.getName()+", Schema="+getC_AcctSchema().getName());
+				log.warning("*** AVERAGE NEGATIVE COST **");
+				log.warning("Product="+getM_Product().getValue()+"_"+getM_Product().getName()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
+				+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
+
 			}
 		}
 		setCumulatedAmt(getCumulatedAmt().add(amt));
@@ -1532,8 +1536,11 @@ public class MCost extends X_M_Cost
 		
 		if (getCurrentQty().add(qty).signum() < 0)
 		{
-			throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
-					+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
+//			throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
+//					+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
+			log.warning("*** AVERAGE NEGATIVE COST **");
+			log.warning("Product="+getM_Product().getValue()+"_"+getM_Product().getName()+", Current Qty="+getCurrentQty()+", Trx Qty="+qty
+			+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
 		}
 				
 		BigDecimal sumQty = getCurrentQty().add(qty);
@@ -1710,8 +1717,11 @@ public class MCost extends X_M_Cost
 		{
 			if (getCurrentQty().signum() < 0)
 			{
-				throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()
-						+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
+//				throw new AverageCostingNegativeQtyException("Product(ID)="+getM_Product_ID()+", Current Qty="+getCurrentQty()
+//						+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
+				log.warning("*** AVERAGE NEGATIVE COST **");
+				log.warning("Product="+getM_Product().getValue()+"_"+getM_Product().getName()+", Current Qty="+getCurrentQty()
+				+", CostElement="+getM_CostElement().getName()+", Schema="+getC_AcctSchema().getName());
 			}
 		}
 		
@@ -1736,7 +1746,10 @@ public class MCost extends X_M_Cost
 		{
 			if (CurrentQty.signum() < 0)
 			{
-				throw new AverageCostingNegativeQtyException("Product="+getM_Product().getName()+", Current Qty="+getCurrentQty()+", New Current Qty="+CurrentQty
+//				throw new AverageCostingNegativeQtyException("Product="+getM_Product().getName()+", Current Qty="+getCurrentQty()+", New Current Qty="+CurrentQty
+//						+", CostElement="+ce.getName()+", Schema="+getC_AcctSchema().getName());
+				log.warning("*** AVERAGE NEGATIVE COST **");
+				log.warning("Product="+getM_Product().getValue()+"_"+getM_Product().getName()+", Current Qty="+getCurrentQty()+", New Current Qty="+CurrentQty
 						+", CostElement="+ce.getName()+", Schema="+getC_AcctSchema().getName());
 			}
 		}

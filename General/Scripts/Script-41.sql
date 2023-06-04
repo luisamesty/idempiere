@@ -1,0 +1,13 @@
+--select * from AD_TableIndex where ad_table_id=208
+--select * from AD_IndexColumn where AD_tableIndex_ID in (select AD_tableIndex_ID from AD_TableIndex where ad_table_id=208)
+--select * from M_AttributeSetInstance
+--select * from ad_column_fkconstraintname where M_AttributeSetInstance = 'MATTRIBUTESETINSTANCE_MCOSTHIS'
+--select * from ad_table where ad_table_id in (select ad_table_id from ad_column where (upper(fkconstraintname::text))='MATTRIBUTESETINSTANCE_MCOSTHIS')
+--select * from AD_TableIndex where ad_table_id=200810
+--select * from AD_TableIndex where (upper(name::text))=('C_BPARTNER_PRODUCT_UU_IDX')
+--select * from ad_table where ad_table_id=632
+--select * from lco_isic
+--SELECT * FROM AD_SysConfig WHERE Name='LCO_USE_WITHHOLDINGS'
+--select * from AD_Element where lower(name)='color'
+--select * from ad_entitytype ae 
+select * from LCO_WithholdingCategory

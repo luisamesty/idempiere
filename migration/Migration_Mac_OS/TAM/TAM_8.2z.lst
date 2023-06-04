@@ -6,16 +6,19 @@
               register_migration_script              
 -----------------------------------------------------
  202001180340_IDEMPIERE-4651.sql was already applied
+
  202001180340_IDEMPIERE-4651.sql was already applied
 (2 rows)
 
             filename             
 ---------------------------------
+
  202012261710_IDEMPIERE-4610.sql
 (1 row)
 
 UPDATE 1
 UPDATE 1
+
               register_migration_script              
 -----------------------------------------------------
  202012261710_IDEMPIERE-4610.sql was already applied
@@ -227,6 +230,7 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
+
               register_migration_script              
 -----------------------------------------------------
  202012310900_IDEMPIERE-4568.sql was already applied
@@ -238,6 +242,7 @@ UPDATE 1
  202012311000_IDEMPIERE-4616.sql
 (1 row)
 
+
 UPDATE 1
 UPDATE 1
 UPDATE 1
@@ -265,14 +270,17 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
+
               register_migration_script              
 -----------------------------------------------------
  202012311000_IDEMPIERE-4616.sql was already applied
+
  202012311000_IDEMPIERE-4616.sql was already applied
 (2 rows)
 
             filename             
 ---------------------------------
+
  01_add_missing_translations.sql
 (1 row)
 
