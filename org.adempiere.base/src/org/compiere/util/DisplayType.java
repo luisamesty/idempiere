@@ -373,8 +373,7 @@ public final class DisplayType
 	public static boolean isList(int displayType)
 	{
 		if (DisplayType.List == displayType  || DisplayType.RadiogroupList == displayType
-				|| DisplayType.ChosenMultipleSelectionList == displayType
-				|| DisplayType.Payment == displayType)
+				|| DisplayType.ChosenMultipleSelectionList == displayType)
 			return true;
 		
 		IServiceReferenceHolder<IDisplayTypeFactory> cache = s_displayTypeFactoryCache.get(displayType);
