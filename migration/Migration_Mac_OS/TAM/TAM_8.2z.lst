@@ -1,255 +1,27 @@
             filename             
 ---------------------------------
- 201706131200_IDEMPIERE-3340.sql
-(1 row)
-
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-CREATE TABLE
-ALTER TABLE
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-CREATE TABLE
-ALTER TABLE
-ALTER TABLE
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-ALTER TABLE
-INSERT 0 1
-                register_migration_script                
----------------------------------------------------------
- 201706131200_IDEMPIERE-3340.sql successfully registered
- 201706131200_IDEMPIERE-3340.sql was already applied
-(2 rows)
-
-            filename             
----------------------------------
  202001180340_IDEMPIERE-4651.sql
 (1 row)
 
-INSERT 0 1
-                register_migration_script                
----------------------------------------------------------
- 202001180340_IDEMPIERE-4651.sql successfully registered
+              register_migration_script              
+-----------------------------------------------------
+ 202001180340_IDEMPIERE-4651.sql was already applied
+
  202001180340_IDEMPIERE-4651.sql was already applied
 (2 rows)
 
             filename             
 ---------------------------------
- 202010281900_IDEMPIERE-3340.sql
-(1 row)
 
-INSERT 0 1
-ALTER TABLE
-INSERT 0 1
-ALTER TABLE
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-                register_migration_script                
----------------------------------------------------------
- 202010281900_IDEMPIERE-3340.sql successfully registered
- 202010281900_IDEMPIERE-3340.sql was already applied
-(2 rows)
-
-                  filename                   
----------------------------------------------
- 202011101100_IDEMPIERE-3340_MigrateData.sql
-(1 row)
-
-INSERT 0 79
-                      register_migration_script                      
----------------------------------------------------------------------
- 202011101100_IDEMPIERE-3340_MigrateData.sql successfully registered
- 202011101100_IDEMPIERE-3340_MigrateData.sql was already applied
-(2 rows)
-
-            filename             
----------------------------------
  202012261710_IDEMPIERE-4610.sql
 (1 row)
 
 UPDATE 1
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012261710_IDEMPIERE-4610.sql successfully registered
+
+              register_migration_script              
+-----------------------------------------------------
+ 202012261710_IDEMPIERE-4610.sql was already applied
  202012261710_IDEMPIERE-4610.sql was already applied
 (2 rows)
 
@@ -258,11 +30,6 @@ UPDATE 1
  202012310900_IDEMPIERE-4568.sql
 (1 row)
 
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
@@ -463,9 +230,10 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012310900_IDEMPIERE-4568.sql successfully registered
+
+              register_migration_script              
+-----------------------------------------------------
+ 202012310900_IDEMPIERE-4568.sql was already applied
  202012310900_IDEMPIERE-4568.sql was already applied
 (2 rows)
 
@@ -474,10 +242,7 @@ UPDATE 1
  202012311000_IDEMPIERE-4616.sql
 (1 row)
 
-INSERT 0 1
-INSERT 0 1
-ALTER TABLE
-INSERT 0 1
+
 UPDATE 1
 UPDATE 1
 UPDATE 1
@@ -505,143 +270,17 @@ UPDATE 1
 UPDATE 1
 UPDATE 1
 UPDATE 1
-                register_migration_script                
----------------------------------------------------------
- 202012311000_IDEMPIERE-4616.sql successfully registered
+
+              register_migration_script              
+-----------------------------------------------------
+ 202012311000_IDEMPIERE-4616.sql was already applied
+
  202012311000_IDEMPIERE-4616.sql was already applied
 (2 rows)
 
             filename             
 ---------------------------------
- 202101181900_IDEMPIERE-3340.sql
-(1 row)
 
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-                register_migration_script                
----------------------------------------------------------
- 202101181900_IDEMPIERE-3340.sql successfully registered
- 202101181900_IDEMPIERE-3340.sql was already applied
-(2 rows)
-
-            filename             
----------------------------------
- 202102011400_IDEMPIERE-4688.sql
-(1 row)
-
-INSERT 0 1
-INSERT 0 1
-ALTER TABLE
-INSERT 0 1
-ALTER TABLE
-UPDATE 1
- altercolumn 
--------------
- 
-(1 row)
-
-INSERT 0 0
-UPDATE 1
- altercolumn 
--------------
- 
-(1 row)
-
-INSERT 0 0
-INSERT 0 1
-INSERT 0 1
-ALTER TABLE
-INSERT 0 1
-ALTER TABLE
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-INSERT 0 1
-INSERT 0 1
-INSERT 0 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
-UPDATE 1
- altercolumn 
--------------
- 
-(1 row)
-
-INSERT 0 0
- altercolumn 
--------------
- 
-(1 row)
-
-INSERT 0 0
-                register_migration_script                
----------------------------------------------------------
- 202102011400_IDEMPIERE-4688.sql successfully registered
- 202102011400_IDEMPIERE-4688.sql was already applied
-(2 rows)
-
-            filename             
----------------------------------
  01_add_missing_translations.sql
 (1 row)
 
@@ -661,7 +300,7 @@ UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 115
-UPDATE 185
+UPDATE 155
 UPDATE 115
 UPDATE 155
 UPDATE 0
@@ -685,17 +324,17 @@ UPDATE 0
 UPDATE 0
 UPDATE 388
 UPDATE 776
-UPDATE 355
-UPDATE 710
-UPDATE 50
-UPDATE 100
+UPDATE 358
+UPDATE 716
+UPDATE 51
+UPDATE 102
 UPDATE 21
 UPDATE 42
 UPDATE 3
 UPDATE 6
 UPDATE 4
 UPDATE 8
-UPDATE 46
+UPDATE 0
 UPDATE 0
 UPDATE 0
 UPDATE 67
