@@ -765,6 +765,7 @@ public final class FactLine extends X_Fact_Acct
 					getAmtSourceCr(), getC_Currency_ID(), m_acctSchema.getC_Currency_ID(),
 					convDate, C_ConversionType_ID, m_doc.getAD_Client_ID(), AD_Org_ID));
 		}
+log.warning("C_Currency_ID="+getC_Currency_ID()+"  C_ConversionType_ID="+C_ConversionType_ID+" DR="+getAmtAcctDr()+" CR="+getAmtAcctCr());
 		return true;
 	}	//	convert
 

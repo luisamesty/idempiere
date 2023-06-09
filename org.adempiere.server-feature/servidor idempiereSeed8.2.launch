@@ -37,7 +37,7 @@
     <booleanAttribute key="clearConfig" value="true"/>
     <booleanAttribute key="clearws" value="true"/>
     <booleanAttribute key="clearwslog" value="false"/>
-    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/servidor idempiereMCC8.2"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/servidor idempiereSeed8.2"/>
     <booleanAttribute key="default" value="false"/>
     <setAttribute key="deselected_workspace_bundles"/>
     <booleanAttribute key="includeOptional" value="false"/>
@@ -47,13 +47,11 @@
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
     </listAttribute>
-    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
-    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_SHOW_CODEDETAILS_IN_EXCEPTION_MESSAGES" value="true"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -arch x86 -nl ${target.nl} -consoleLog  --launcher.secondThread"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="--add-modules=java.se --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.sql.rowset/com.sun.rowset=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED &#10;-Declipse.product=org.adempiere.server.product &#10;-Dosgi.noShutdown=true &#10;-Dosgi.framework.activeThreadType=normal &#10;-Dorg.osgi.framework.bootdelegation=sun.security.ssl &#10;-Dosgi.compatibility.bootdelegation=true &#10;-Djetty.home=jettyhome &#10;-Djetty.etc.config.urls=etc/jetty.xml,etc/jetty-deployer.xml,etc/jetty-ssl.xml,etc/jetty-ssl-context.xml,etc/jetty-http.xml,etc/jetty-https.xml,etc/jetty-threadpool.xml &#10;-Dmail.mime.encodefilename=true &#10;-Dmail.mime.decodefilename=true &#10;-Dmail.mime.encodeparameters=true &#10;-Dmail.mime.decodeparameters=true &#10;-Dhazelcast.config=hazelcast.xml &#10;-Dorg.eclipse.jetty.annotations.AnnotationParser.LEVEL=OFF&#10;-DPropertyFile=${workspace_loc}/doc/idempiere_MCC82.properties"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="--add-modules=java.se --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.management/sun.management=ALL-UNNAMED --add-opens=jdk.management/com.sun.management.internal=ALL-UNNAMED --add-exports=java.base/jdk.internal.ref=ALL-UNNAMED --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.sql.rowset/com.sun.rowset=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED &#10;-Declipse.product=org.adempiere.server.product &#10;-Dosgi.noShutdown=true &#10;-Dosgi.framework.activeThreadType=normal &#10;-Dorg.osgi.framework.bootdelegation=sun.security.ssl &#10;-Dosgi.compatibility.bootdelegation=true &#10;-Djetty.home=jettyhome &#10;-Djetty.etc.config.urls=etc/jetty.xml,etc/jetty-deployer.xml,etc/jetty-ssl.xml,etc/jetty-ssl-context.xml,etc/jetty-http.xml,etc/jetty-https.xml,etc/jetty-threadpool.xml &#10;-Dmail.mime.encodefilename=true &#10;-Dmail.mime.decodefilename=true &#10;-Dmail.mime.encodeparameters=true &#10;-Dmail.mime.decodeparameters=true &#10;-Dhazelcast.config=hazelcast.xml &#10;-Dorg.eclipse.jetty.annotations.AnnotationParser.LEVEL=OFF&#10;-DPropertyFile=/Users/luisamesty/sources/idempiere/doc/Idempiere_Seed82.properties"/>
     <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc}"/>
     <stringAttribute key="pde.version" value="3.3"/>
     <stringAttribute key="product" value="org.adempiere.server.server_product"/>
@@ -381,6 +379,8 @@
         <setEntry value="zweb@default:default"/>
     </setAttribute>
     <setAttribute key="selected_workspace_bundles">
+        <setEntry value="com.ingeint.human.talent@default:true"/>
+        <setEntry value="com.ingeint.idempierePayroll@default:true"/>
         <setEntry value="org.adempiere.base.callout@default:default"/>
         <setEntry value="org.adempiere.base.process@default:default"/>
         <setEntry value="org.adempiere.base@default:default"/>
@@ -397,22 +397,7 @@
         <setEntry value="org.adempiere.server@default:true"/>
         <setEntry value="org.adempiere.ui.zk@default:true"/>
         <setEntry value="org.adempiere.ui@default:default"/>
-        <setEntry value="org.amerpsoft.com.idempiere.editors-com@default:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.zk_themes@default:false"/>
-        <setEntry value="org.amerpsoft.idempiere.amabase@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.amwebfui@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.bpartners@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.cashbank@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.financial@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.material@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.personnelpayroll@default:true"/>
-        <setEntry value="org.amerpsoft.idempiere.tools@default:true"/>
         <setEntry value="org.apache.ecs@default:default"/>
-        <setEntry value="org.community.kanban-board@default:true"/>
-        <setEntry value="org.community.model-generator@default:true"/>
-        <setEntry value="org.community.ui.zk.specialeditor@default:true"/>
-        <setEntry value="org.community.ui.zk.specialeditor_examples@default:true"/>
         <setEntry value="org.compiere.db.oracle.provider@default:default"/>
         <setEntry value="org.compiere.db.postgresql.provider@default:default"/>
         <setEntry value="org.idempiere.felix.webconsole@default:true"/>
