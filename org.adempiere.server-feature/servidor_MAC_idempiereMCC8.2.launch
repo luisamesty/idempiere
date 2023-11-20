@@ -47,6 +47,7 @@
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
     </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="false"/>
     <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -arch x86 -nl ${target.nl} -consoleLog  --launcher.secondThread"/>
@@ -399,6 +400,7 @@
         <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
         <setEntry value="org.amerpsoft.com.idempiere.zk_themes@default:false"/>
         <setEntry value="org.amerpsoft.idempiere.amabase@default:true"/>
+        <setEntry value="org.amerpsoft.idempiere.ambimpanel@default:false"/>
         <setEntry value="org.amerpsoft.idempiere.amwebfui@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.bpartners@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.cashbank@default:true"/>
