@@ -37,7 +37,7 @@
     <booleanAttribute key="clearConfig" value="true"/>
     <booleanAttribute key="clearws" value="true"/>
     <booleanAttribute key="clearwslog" value="false"/>
-    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/servidor idempiereTAM8.2"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/servidor_MAC_idempiereTAM8.2"/>
     <booleanAttribute key="default" value="false"/>
     <setAttribute key="deselected_workspace_bundles"/>
     <booleanAttribute key="includeOptional" value="false"/>
@@ -47,7 +47,8 @@
     <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
         <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
     </listAttribute>
-    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
     <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -arch x86 -nl ${target.nl} -consoleLog  --launcher.secondThread"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
@@ -397,9 +398,9 @@
         <setEntry value="org.adempiere.ui@default:default"/>
         <setEntry value="org.amerpsoft.com.idempiere.editors-com@default:true"/>
         <setEntry value="org.amerpsoft.com.idempiere.lco.withholding@5:true"/>
-        <setEntry value="org.amerpsoft.com.idempiere.themes-com@default:false"/>
         <setEntry value="org.amerpsoft.com.idempiere.zk_themes@default:false"/>
         <setEntry value="org.amerpsoft.idempiere.amabase@default:true"/>
+        <setEntry value="org.amerpsoft.idempiere.ambimpanel@default:false"/>
         <setEntry value="org.amerpsoft.idempiere.amwebfui@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.bpartners@default:true"/>
         <setEntry value="org.amerpsoft.idempiere.cashbank@default:true"/>
@@ -423,7 +424,7 @@
     <booleanAttribute key="tracing" value="false"/>
     <booleanAttribute key="useCustomFeatures" value="false"/>
     <booleanAttribute key="useDefaultConfig" value="true"/>
-    <booleanAttribute key="useDefaultConfigArea" value="false"/>
+    <booleanAttribute key="useDefaultConfigArea" value="true"/>
     <booleanAttribute key="useProduct" value="true"/>
     <booleanAttribute key="usefeatures" value="false"/>
 </launchConfiguration>
