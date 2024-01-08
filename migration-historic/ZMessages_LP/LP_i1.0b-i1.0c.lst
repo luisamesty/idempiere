@@ -1,0 +1,732 @@
+            filename            
+--------------------------------
+ 201304101012_IDEMPIERE-791.sql
+(1 fila)
+
+INSERT 0 0
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201304101012_IDEMPIERE-791.sql successfully registered
+ 201304101012_IDEMPIERE-791.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305031441_IDEMPIERE-909.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305031441_IDEMPIERE-909.sql successfully registered
+ 201305031441_IDEMPIERE-909.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305041605_IDEMPIERE-894.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305041605_IDEMPIERE-894.sql successfully registered
+ 201305041605_IDEMPIERE-894.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305101047_IDEMPIERE-919.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305101047_IDEMPIERE-919.sql successfully registered
+ 201305101047_IDEMPIERE-919.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305171202_IDEMPIERE-933.sql
+(1 fila)
+
+INSERT 0 0
+               register_migration_script                
+--------------------------------------------------------
+ 201305171202_IDEMPIERE-933.sql successfully registered
+ 201305171202_IDEMPIERE-933.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305201121_IDEMPIERE-936.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305201121_IDEMPIERE-936.sql successfully registered
+ 201305201121_IDEMPIERE-936.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305231200_IDEMPIERE-955.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305231200_IDEMPIERE-955.sql successfully registered
+ 201305231200_IDEMPIERE-955.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130527113000_IDEMPIERE-962.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                 
+----------------------------------------------------------
+ 20130527113000_IDEMPIERE-962.sql successfully registered
+ 20130527113000_IDEMPIERE-962.sql was already applied
+(2 filas)
+
+                  filename                   
+---------------------------------------------
+ 201305291133_IDEMPIERE-170_SampleGWCash.sql
+(1 fila)
+
+INSERT 0 0
+                      register_migration_script                      
+---------------------------------------------------------------------
+ 201305291133_IDEMPIERE-170_SampleGWCash.sql successfully registered
+ 201305291133_IDEMPIERE-170_SampleGWCash.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305291158_IDEMPIERE-983.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201305291158_IDEMPIERE-983.sql successfully registered
+ 201305291158_IDEMPIERE-983.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130529121300_IDEMPIERE-970.sql
+(1 fila)
+
+                register_migration_script                 
+----------------------------------------------------------
+ 20130529121300_IDEMPIERE-970.sql successfully registered
+ 20130529121300_IDEMPIERE-970.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201305311943_IDEMPIERE-860.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 0
+               register_migration_script                
+--------------------------------------------------------
+ 201305311943_IDEMPIERE-860.sql successfully registered
+ 201305311943_IDEMPIERE-860.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306011007_IDEMPIERE-1004.sql
+(1 fila)
+
+INSERT 0 0
+                register_migration_script                
+---------------------------------------------------------
+ 201306011007_IDEMPIERE-1004.sql successfully registered
+ 201306011007_IDEMPIERE-1004.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306021150_IDEMPIERE-1010.sql
+(1 fila)
+
+                register_migration_script                
+---------------------------------------------------------
+ 201306021150_IDEMPIERE-1010.sql successfully registered
+ 201306021150_IDEMPIERE-1010.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306021405_IDEMPIERE-1009.sql
+(1 fila)
+
+INSERT 0 0
+INSERT 0 0
+                register_migration_script                
+---------------------------------------------------------
+ 201306021405_IDEMPIERE-1009.sql successfully registered
+ 201306021405_IDEMPIERE-1009.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306021533_IDEMPIERE-1011.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 201306021533_IDEMPIERE-1011.sql successfully registered
+ 201306021533_IDEMPIERE-1011.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306041510_IDEMPIERE-975.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+INSERT 0 0
+INSERT 0 0
+               register_migration_script                
+--------------------------------------------------------
+ 201306041510_IDEMPIERE-975.sql successfully registered
+ 201306041510_IDEMPIERE-975.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130605095600_IDEMPIERE-962.sql
+(1 fila)
+
+UPDATE 1
+                register_migration_script                 
+----------------------------------------------------------
+ 20130605095600_IDEMPIERE-962.sql successfully registered
+ 20130605095600_IDEMPIERE-962.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130612122145_IDEMPIERE-974.sql
+(1 fila)
+
+INSERT 0 0
+                register_migration_script                 
+----------------------------------------------------------
+ 20130612122145_IDEMPIERE-974.sql successfully registered
+ 20130612122145_IDEMPIERE-974.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130613110000_IDEMPIERE-978.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+INSERT 0 0
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                 
+----------------------------------------------------------
+ 20130613110000_IDEMPIERE-978.sql successfully registered
+ 20130613110000_IDEMPIERE-978.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306131356_IDEMPIERE-974.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306131356_IDEMPIERE-974.sql successfully registered
+ 201306131356_IDEMPIERE-974.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 20130617121500_IDEMPIERE-893.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                 
+----------------------------------------------------------
+ 20130617121500_IDEMPIERE-893.sql successfully registered
+ 20130617121500_IDEMPIERE-893.sql was already applied
+(2 filas)
+
+           filename            
+-------------------------------
+ 201306171349_IDEMPIERE-67.sql
+(1 fila)
+
+UPDATE 294
+UPDATE 1
+UPDATE 32
+UPDATE 0
+UPDATE 46
+UPDATE 1
+               register_migration_script               
+-------------------------------------------------------
+ 201306171349_IDEMPIERE-67.sql successfully registered
+ 201306171349_IDEMPIERE-67.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306171929_IDEMPIERE-1063.sql
+(1 fila)
+
+DROP INDEX
+CREATE INDEX
+DROP INDEX
+CREATE INDEX
+                register_migration_script                
+---------------------------------------------------------
+ 201306171929_IDEMPIERE-1063.sql successfully registered
+ 201306171929_IDEMPIERE-1063.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306180932_IDEMPIERE-234.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306180932_IDEMPIERE-234.sql successfully registered
+ 201306180932_IDEMPIERE-234.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306181225_IDEMPIERE-362.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306181225_IDEMPIERE-362.sql successfully registered
+ 201306181225_IDEMPIERE-362.sql was already applied
+(2 filas)
+
+              filename              
+------------------------------------
+ 201306181524_IDEMPIERE-669_390.sql
+(1 fila)
+
+INSERT 0 0
+INSERT 0 0
+                 register_migration_script                  
+------------------------------------------------------------
+ 201306181524_IDEMPIERE-669_390.sql successfully registered
+ 201306181524_IDEMPIERE-669_390.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306181743_IDEMPIERE-162.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306181743_IDEMPIERE-162.sql successfully registered
+ 201306181743_IDEMPIERE-162.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306182217_IDEMPIERE-893.sql
+(1 fila)
+
+INSERT 0 30
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306182217_IDEMPIERE-893.sql successfully registered
+ 201306182217_IDEMPIERE-893.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306182259_IDEMPIERE-234.sql
+(1 fila)
+
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306182259_IDEMPIERE-234.sql successfully registered
+ 201306182259_IDEMPIERE-234.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306200400_IDEMPIERE-1042.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 201306200400_IDEMPIERE-1042.sql successfully registered
+ 201306200400_IDEMPIERE-1042.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306201723_IDEMPIERE-1084.sql
+(1 fila)
+
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 201306201723_IDEMPIERE-1084.sql successfully registered
+ 201306201723_IDEMPIERE-1084.sql was already applied
+(2 filas)
+
+            filename            
+--------------------------------
+ 201306211448_IDEMPIERE-594.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+               register_migration_script                
+--------------------------------------------------------
+ 201306211448_IDEMPIERE-594.sql successfully registered
+ 201306211448_IDEMPIERE-594.sql was already applied
+(2 filas)
+
+            filename             
+---------------------------------
+ 201306261026_IDEMPIERE-1104.sql
+(1 fila)
+
+UPDATE 1
+UPDATE 1
+UPDATE 1
+UPDATE 1
+                register_migration_script                
+---------------------------------------------------------
+ 201306261026_IDEMPIERE-1104.sql successfully registered
+ 201306261026_IDEMPIERE-1104.sql was already applied
+(2 filas)
+
+              filename              
+------------------------------------
+ 201306261814_PreReleaseCleanup.sql
+(1 fila)
+
+UPDATE 38
+UPDATE 2
+UPDATE 1
+                 register_migration_script                  
+------------------------------------------------------------
+ 201306261814_PreReleaseCleanup.sql successfully registered
+ 201306261814_PreReleaseCleanup.sql was already applied
+(2 filas)
+
+             filename             
+----------------------------------
+ 201306261840_EnableChangeLog.sql
+(1 fila)
+
+UPDATE 91
+                register_migration_script                 
+----------------------------------------------------------
+ 201306261840_EnableChangeLog.sql successfully registered
+ 201306261840_EnableChangeLog.sql was already applied
+(2 filas)
+
+         filename         
+--------------------------
+ 201306262016_Version.sql
+(1 fila)
+
+UPDATE 1
+            register_migration_script             
+--------------------------------------------------
+ 201306262016_Version.sql successfully registered
+ 201306262016_Version.sql was already applied
+(2 filas)
+
+COMMIT

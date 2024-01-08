@@ -1,0 +1,10 @@
+sh migrate_postgresql.sh i1.0a-i1.0b commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i1.0a-i1.0b.lst
+sh migrate_postgresql.sh i1.0b-i1.0c commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i1.0b-i1.0c.lst
+sh migrate_postgresql.sh i1.0c commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i1.0c.lst
+sh migrate_postgresql.sh i1.0z commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i1.0z.lst
+sh migrate_postgresql.sh i2.0 commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i2.0.lst
+sh migrate_postgresql.sh i2.0z commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i2.0z.lst
+sh migrate_postgresql.sh i2.1 commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i2.1.lst
+sh migrate_postgresql.sh i2.1z commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i2.1z.lst
+sh migrate_postgresql.sh i3.1 commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i3.1.lst
+sh migrate_postgresql.sh i3.1z commit | psql -p 5433 -U adempiere -d idempiereLP10pro > ZMessages_LP/LP_i3.1z.lst
