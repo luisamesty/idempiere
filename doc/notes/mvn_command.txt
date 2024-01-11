@@ -1,0 +1,10 @@
+use maven property maven.repo.local:
+
+mvn -Dmaven.repo.local=$HOME/.my/other/repository clean install
+
+No modifications to settings.xml are necessary.
+
+# 
+mvn -Dmaven.repo.local=$HOME/.m2/repository_11_OK clean install
+
+

@@ -1,0 +1,48 @@
+    ​ JAVA Versions
+
+ $ ls -l /usr/lib/jvm
+
+Output:
+lrwxrwxrwx 1 root       root         21 oct 29  2021 java-1.11.0-openjdk-amd64 -> java-11-openjdk-amd64
+lrwxrwxrwx 1 root       root         21 may  6 12:31 java-1.17.0-openjdk-amd64 -> java-17-openjdk-amd64
+drwxr-xr-x 9 root       root       4096 ago 14 10:47 java-11-openjdk-amd64
+drwxr-xr-x 9 root       root       4096 ago 14 10:50 java-17-openjdk-amd64
+drwxrwxr-x 8 luisamesty luisamesty 4096 mar 13  2022 jdk-11.0.2
+drwxr-xr-x 2 root       root       4096 ago 14 10:47 openjdk-11
+drwxr-xr-x 2 root       root       4096 ago 14 10:50 openjdk-17
+
+Version:
+
+$ java -version
+
+openjdk version "11.0.20" 2023-07-18
+OpenJDK Runtime Environment (build 11.0.20+8-post-Ubuntu-1ubuntu120.04)
+OpenJDK 64-Bit Server VM (build 11.0.20+8-post-Ubuntu-1ubuntu120.04, mixed mode, sharing)
+
+Alternatives:
+
+$ sudo update-alternatives --config java
+Existen 2 opciones para la alternativa java (que provee /usr/bin/java).
+
+  Selección   Ruta                                         Prioridad  Estado
+------------------------------------------------------------
+  0            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      modo automático
+* 1            /usr/lib/jvm/java-11-openjdk-amd64/bin/java   1111      modo manual
+  2            /usr/lib/jvm/java-17-openjdk-amd64/bin/java   1711      modo manual
+
+Pulse <Intro> para mantener el valor por omisión [*] o pulse un número de selección: 
+
+Select 0-1-2
+
+    ​ MAVEN VERSIONS.
+Adding a solution for people with multiple Java versions installed
+
+We have a large codebase, most of which is in Java. The majority of what I work on is written in either Java 1.7 or 1.8. Since JAVA_HOME is static, I created aliases in my .bashrc for running Maven with different values:
+
+alias mvn5="JAVA_HOME=/usr/local/java5 && mvn"
+alias mvn6="JAVA_HOME=/usr/local/java6 && mvn"
+alias mvn7="JAVA_HOME=/usr/local/java7 && mvn"
+alias mvn8="JAVA_HOME=/usr/local/java8 && mvn"
+
+JAVA 11:
+/usr/lib/jvm/java-1.11.0-openjdk-amd64
