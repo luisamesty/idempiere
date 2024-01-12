@@ -4,19 +4,19 @@
   # psql -p 5433 postgres
 # for m4erp.com execute as user postgres: 
   $ su postgres
--- Database: idempiereTAM11pro
-DROP DATABASE "idempiereTAM11pro";
+-- Database: idempiereMCC11pro
+DROP DATABASE "idempiereMCC11pro";
 -- OR RENAME
-ALTER DATABASE "idempiereTAM11pro"
-RENAME TO "idempiereTAM11pro2";
+ALTER DATABASE "idempiereMCC11pro"
+RENAME TO "idempiereMCC11pro2";
 --CREATE
-CREATE DATABASE "idempiereTAM11pro"
+CREATE DATABASE "idempiereMCC11pro"
     WITH 
     OWNER = adempiere
     ENCODING = 'UTF8'
    TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
-ALTER DATABASE "idempiereTAM11pro"
+ALTER DATABASE "idempiereMCC11pro"
     SET search_path TO adempiere;
 
 # CREATE DATABASE FROM BACKUP
@@ -27,11 +27,11 @@ ALTER DATABASE "idempiereTAM11pro"
 # for m4erp.com execute as user postgres: 
   $ su postgres
 # EXECUTE restore Command
- $psql -p 5433 -d idempiereTAM11pro -f idempiereTAM11pro_2023_10_26_2315_psql ;
+ $psql -p 5433 -d idempiereMCC11pro -f idempiereMCC11pro_2023_10_26_2315_psql ;
 
 
 # UNZIP bz2 files on UBUNTU
-bunzip2 idempiereTAM11pro_2023_10_26_2315.pgsql.bz
+bunzip2 idempiereMCC11pro_2023_10_26_2315.pgsql.bz
 
 bunzip2 path/to/myfile.bz2
 bzip2 -d path/to/myfile.bz
@@ -40,7 +40,7 @@ bzip2 -d path/to/myfile.bz
 Para entrar al PostgreSQL:
 $ 
 
-# /opt/PostgreSQL/10/bin/psql -p 5432 -U adempiere idempiereTAM11pro
+# /opt/PostgreSQL/150/bin/psql -p 5432 -U adempiere idempiereMCC11pro
 
 How to kill all other active connections to your database in PostgreSQL?
 #Using SQL Query, run the query below:
@@ -59,4 +59,4 @@ WHERE    datid = (
         WHERE            datname = 'database_name');
 
 # DUMP DATABASE
-  $ pg_dump -p 5433 -d idempiereTAM11pro > dump-TAM11pro_2024_01_14.dmp
+  $ pg_dump -p 5433 -d idempiereMCC11pro > dump-MCC11pro_2024_01_14.dmp
