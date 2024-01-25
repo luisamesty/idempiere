@@ -1,0 +1,20 @@
+IDEMPIERE-REST  NOTES
+
+COMPILING WITH MAVEN.
+
+use maven property maven.repo.local:
+
+mvn -Dmaven.repo.local=$HOME/.my/other/repository clean install
+
+No modifications to settings.xml are necessary.
+
+mvn -Dmaven.repo.local=$HOME/.m2/repository_82_OK clean install
+
+
+INSTALLING.
+
+sudo ./update-rest-extensions.sh file:///home/luisamesty/sources/iDempiere8.2/idempiere-rest/com.trekglobal.idempiere.extensions.p2/target/repository/
+
+OSGI CONSOLE
+telnet localhost 12612
+
