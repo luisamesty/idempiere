@@ -12,9 +12,13 @@ mvn -Dmaven.repo.local=$HOME/.m2/repository_11_OK clean install
 
 
 INSTALLING.
+Document:
+$ sudo ./update-rest-extensions.sh file:///home/luisamesty/sources/iDempiere11/idempiere-rest/com.trekglobal.idempiere.extensions.p2/target/repository/
 
-sudo ./update-rest-extensions.sh file:///home/luisamesty/sources/iDempiere11/idempiere-rest/com.trekglobal.idempiere.extensions.p2/target/repository/
-
+Alternative:
+Normal Install using Apache Felix Web Console
+*** IMPORTANT ***
+Select Start Level 4
 
 OSGI CONSOLE
 telnet localhost 12612
