@@ -42,7 +42,7 @@ How to kill all other active connections to your database in PostgreSQL?
 
 SELECT    pg_terminate_backend(pg_stat_activity.pid)
 FROM    pg_stat_activity
-WHERE    pg_stat_activity.datname = 'database_name'
+WHERE    pg_stat_activity.datname = 'idempiereTAM8.2pro'
     AND pid <> pg_backend_pid();
 
 or this query:
@@ -51,6 +51,6 @@ FROM    pg_stat_get_activity(NULL::integer)
 WHERE    datid = (
         SELECT            oid
         FROM            pg_database
-        WHERE            datname = 'database_name');
+        WHERE            datname = 'idempiereTAM8.2pro');
 
 
