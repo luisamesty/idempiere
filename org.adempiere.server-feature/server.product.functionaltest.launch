@@ -105,8 +105,6 @@
         <setEntry value="com.google.oauth-client@default:default"/>
         <setEntry value="com.google.zxing.core@default:default"/>
         <setEntry value="com.ibm.icu@default:default"/>
-        <setEntry value="com.jaspersoft.studio.bundles.barbecue@default:default"/>
-        <setEntry value="com.jaspersoft.studio.bundles.itext@default:default"/>
         <setEntry value="com.sun.activation.jakarta.activation@default:default"/>
         <setEntry value="com.sun.istack.commons-runtime@default:default"/>
         <setEntry value="com.sun.mail.gimap@default:default"/>
@@ -171,11 +169,9 @@
         <setEntry value="org.apache.cxf.cxf-rt-bindings-soap@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-bindings-xml@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-databinding-jaxb@default:default"/>
-        <setEntry value="org.apache.cxf.cxf-rt-databinding-xmlbeans@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-frontend-jaxrs@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-frontend-jaxws@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-frontend-simple@default:default"/>
-        <setEntry value="org.apache.cxf.cxf-rt-rs-extension-providers@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-rs-service-description@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-security@default:default"/>
         <setEntry value="org.apache.cxf.cxf-rt-transports-http@default:default"/>
@@ -195,7 +191,6 @@
         <setEntry value="org.apache.httpcomponents.httpclient@default:default"/>
         <setEntry value="org.apache.httpcomponents.httpcore@default:default"/>
         <setEntry value="org.apache.neethi@default:default"/>
-        <setEntry value="org.apache.poi.ooxml-schemas@default:default"/>
         <setEntry value="org.apache.servicemix.bundles.batik@default:default"/>
         <setEntry value="org.apache.servicemix.bundles.cglib@default:default"/>
         <setEntry value="org.apache.servicemix.bundles.jaxen@default:default"/>
@@ -368,7 +363,7 @@
         <setEntry value="org.w3c.dom.smil@default:default"/>
         <setEntry value="org.w3c.dom.svg@default:default"/>
         <setEntry value="org.zkoss.zsoup@default:default"/>
-        <setEntry value="slf4j.api*1.7.30@default:default"/>
+        <setEntry value="slf4j.api@default:default"/>
         <setEntry value="slf4j.jdk14@default:false"/>
         <setEntry value="stax2-api@default:default"/>
         <setEntry value="wrapped.com.google.http-client.google-http-client-gson@default:default"/>
