@@ -26,8 +26,7 @@ psql -p 5433 -d idempiereTAM8.2pro -f idempiereTAM8.2pro_2023_10_26_2315_psql ;
 
 
 # UNZIP bz2 files on UBUNTU
-bunzip2 idempiereTAM8.2pro_2023_10_26_2315.pgsql.bz
-
+bunzip2 idempiereTAM8.2pro_2023_10_26_2315.pgsql.bz idempiereTAM8.2pro_2024_04_11_2315.pgsql
 bunzip2 path/to/myfile.bz2
 bzip2 -d path/to/myfile.bz
 
