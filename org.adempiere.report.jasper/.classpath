@@ -5,7 +5,11 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/home/luisamesty/sources/iDempiere12/idempiere/org.adempiere.report.jasper/doc/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
