@@ -749,12 +749,8 @@ public class MColumn extends X_AD_Column implements ImmutablePOSupport
 		// IDEMPIERE-965
 		if (getColumnName().equals(PO.getUUIDColumnName(tableName))) {
 			String indexName = MTable.getUUIDIndexName(tableName);
-			String constraintType;
-			if (table.isUUIDKeyTable())
-				constraintType = "PRIMARY KEY";
-			else
-				constraintType = "UNIQUE";
-			StringBuilder msgreturn = new StringBuilder("CONSTRAINT ").append(indexName).append(" ").append(constraintType).append(" (").append(getColumnName()).append(")");
+			// when doing packin it is still not known if the table is UUID or not as every column is added one by one
+			StringBuilder msgreturn = new StringBuilder("CONSTRAINT ").append(indexName).append(" UNIQUE (").append(getColumnName()).append(")");
 			return msgreturn.toString();
 		}
 		return "";
@@ -879,6 +875,8 @@ public class MColumn extends X_AD_Column implements ImmutablePOSupport
 			foreignTable = getColumnName().substring(0, getColumnName().length()-3);
 		} else if (DisplayType.Table == refid || DisplayType.TableUU == refid || DisplayType.Search == refid || DisplayType.SearchUU == refid) {
 			foreignTable = DB.getSQLValueStringEx(get_TrxName(), sqlTableNameReference, getAD_Column_ID());
+		} else if (DisplayType.isMultiID(refid)) {
+			foreignTable = getMultiReferenceTableName();
 		} else if (DisplayType.Button == refid) {
 			// C_BPartner.AD_OrgBP_ID and C_Project.C_ProjectType_ID are defined as buttons
 			if ("AD_OrgBP_ID".equalsIgnoreCase(getColumnName()))
@@ -1040,7 +1038,7 @@ public class MColumn extends X_AD_Column implements ImmutablePOSupport
 		if (!column.isKey() && !column.getColumnName().equals(PO.getUUIDColumnName(table.getTableName())) && !column.isVirtualColumn())
 		{
 			int refid = column.getAD_Reference_ID();
-			if (!DisplayType.isList(refid))
+			if (!DisplayType.isList(refid) && !DisplayType.isMultiID(refid))
 			{
 				String referenceTableName = column.getReferenceTableName();
 				if (referenceTableName != null)
@@ -1280,7 +1278,7 @@ public class MColumn extends X_AD_Column implements ImmutablePOSupport
 				return "";
 
 			int refid = column.getAD_Reference_ID();
-			if (!DisplayType.isList(refid))
+			if (!DisplayType.isList(refid) && !DisplayType.isMultiID(refid))
 			{
 				String referenceTableName = column.getReferenceTableName();
 				if (referenceTableName != null)

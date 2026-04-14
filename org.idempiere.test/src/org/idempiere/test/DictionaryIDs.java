@@ -141,6 +141,17 @@ public final class DictionaryIDs {
 		}
 	}
 	
+	public enum C_BankAccount_Processor {
+		MONEYBANK_1234("f4a64026-bf68-4c8c-b238-8cdf006aae04"),
+		MONEYBANK_5678("f8f892f0-36ab-4b4d-9dd3-c3bbe12cf455");
+
+		public final String uuid;
+
+		private C_BankAccount_Processor(String uuid) {
+			this.uuid = uuid;
+		}
+	}
+
 	public enum C_BPartner {
 		STANDARD(112,"dc4962ad-066f-4ebf-88ac-545d12c9f1f0"),
 		TREE_FARM(114,"5c557ed6-c443-4b99-ae77-546ccd46bc1f"),
@@ -170,6 +181,28 @@ public final class DictionaryIDs {
 		public final int id;
 
 		private C_BPartner_Location(int id) {
+			this.id = id;
+		}
+	}
+
+	public enum C_BP_Group {
+		STANDARD_CUSTOMERS(103),
+		VENDORS(104),
+		STAFF(105);
+
+		public final int id;
+
+		private C_BP_Group(int id) {
+			this.id = id;
+		}
+	}
+
+	public enum C_BP_Relation {
+		C_AND_W_PAYS_FOR_JOE(100);
+
+		public final int id;
+
+		private C_BP_Relation(int id) {
 			this.id = id;
 		}
 	}
